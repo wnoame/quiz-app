@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+    <div class="container">
+        <div class="appquiz">
+            <div class="appquiz__question-box">
+                <h1 class="appquiz__question"></h1>
+                <!-- Removed What is Open-RAN-->
+                <p class="appquiz__tracker">1 of 7</p>
+                <div class="progress">
+                    <div class="progress__inner"></div>
+                </div>
+                <p class="appquiz__tagline">Pick an  option below!</p>
+            </div>
+            <div class="appquiz__choices-box">
+                <ul class="appquiz__choices">
+                    <!-- Dynamically with JavaScript -->
+                    <!-- <li class="appquiz__choice">
+                        <input type="radio" name="choice" class="appquiz__input" id="choice0" checked>
+                        <label for="choice0" class="appquiz__label">
+                        <i></i>
+                        Network Access Card
+                    </label>
+                    </li>
+                    <li class="appquiz__choice">
+                        <input type="radio" name="choice" class="appquiz__input" id="choice1">
+                        <label for="choice1" class="appquiz__label">
+                        <i></i>
+                        Random Access Memory
+                    </label>
+                    </li>
+                    <li class="appquiz__choice">
+                        <input type="radio" name="choice" class="appquiz__input" id="choice2">
+                        <label for="choice2" class="appquiz__label">
+                        <i></i>
+                        Radicalisation Awareness Network
+                    </label>
+                    </li>
+                    <li class="appquiz__choice">
+                        <input type="radio" name="choice" class="appquiz__input" id="choice3">
+                        <label for="choice3" class="appquiz__label">
+                        <i></i>
+                        Radio Access Network
+                    </label>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="appquiz__footer">
+                <button class="button button--bordered next">Next</button>
+                <button class="button button--bordered restart">Restart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/app.js" type="module"></script>
+</body>
+</html>
