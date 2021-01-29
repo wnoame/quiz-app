@@ -43,7 +43,7 @@ const App = ( ()=> {
         const listeners = _ => {
             nextButtonEl.addEventListener("click", function() {
                 const selectedRadioElem = document.querySelector('input[name="choice"]:checked');
-                if (selectedRadioElem) {s
+                if (selectedRadioElem) {
                     const key = Number(selectedRadioElem.getAttribute("data-order"));
                     quiz.guess(key);
                     renderAll();
